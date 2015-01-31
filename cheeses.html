@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<link rel="stylesheet" href="bootstrap.css"/>
+<link rel="stylesheet" href="Style.css"/>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Cheeses</title>
+</head>
+<body>
+
+
+<div class="container">
+    <div class="jumbotron">
+        <h1>Our Swiss Cheeses</h1>
+
+        <p>The widest selection of cheeses outside Switzerland</p>
+    </div>
+
+    <div class="row">
+        <div class="col-md-8" id="greeting">
+            <form id="greeting-form" method="post" action="/booking">
+
+                <div class="form-group">
+                <label>What's your name?</label>
+                <input type="text" id="fullName" name="fullName" class="form-control"
+                        placeholder="Bob" required>
+                    <label>What's your email address please?</label>
+                    <input type="email" name="email" class="form-control" >
+                <button type="submit"  class="btn btn-success" >OK</button>
+                </div>
+            </form>
+
+        </div>
+
+    </div>
+
+
+    <div class="row">
+        <div class="page-header">
+            <h2>Our cheeses with pictures</h2>
+        </div>
+        <div class="col-md-3 col-xs-6"><h4>Hard Cheeses <span class="label label-success">£5.00</span></h4>
+            <img src="img/gruyere1.jpg" class="img-circle img-responsive"/>
+            <img src="img/emmental1.jpg" width="200" class="img-circle img-responsive"/>
+        </div>
+        <div class="col-md-3 col-xs-6"><h4>Soft cheeses <span class="label label-info">£4.00 special offer</span></h4>
+            <img src="img/vacherin1.jpg" class="img-rounded img-responsive"/>
+        </div>
+
+        <div class="col-md-3 col-xs-6">Blue cheeses <span class="label label-success">£3.00</span></h4>
+            <img src="img/dolce.jpg" width="200" class="img-circle img-responsive"/>
+        </div>
+        <div class="col-md-3 col-xs-6">Goats cheeses <span class="label label-success">£7.00 </span></h4>
+            <img src="img/goat.jpg" width="200" class="img-thumbnail img-responsive"/>
+        </div>
+    </div>
+
+
+</div>
+<script src="jquery.js"></script>
+<script src="Myfrontend.js"></script>
+</body>
+</html>

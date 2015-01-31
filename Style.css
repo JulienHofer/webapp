@@ -1,0 +1,21 @@
+h1 {
+    color: #FFFFCC;
+    background-color: red;
+    font-family: Helvetica;
+}
+body{
+    color: #A30000;
+    background-color: #F6E6E6;
+
+}
+.wineclass {
+    color: darkgreen;
+
+}
+#chambold {
+     font-weight: bold;}
+
+.italics {
+    font-style: italic;
+}
+
